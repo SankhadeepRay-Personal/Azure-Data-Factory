@@ -1,0 +1,9 @@
+{
+	"name": "MyDFPersonal",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8e9928a1-919a-4ca5-9dcd-eb0098396a76",
+		"tenantId": "b549bf4b-6d11-43f4-a9b3-1690117c0576"
+	}
+}
