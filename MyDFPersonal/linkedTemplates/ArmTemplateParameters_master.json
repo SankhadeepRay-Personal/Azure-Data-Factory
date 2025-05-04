@@ -5,8 +5,20 @@
 		"factoryName": {
 			"value": "MyDFPersonal"
 		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
 		"devs001connection_accountKey": {
 			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "devdfserver.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "Mysqldb"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sqllogin"
 		},
 		"devs001connection_properties_typeProperties_url": {
 			"value": "https://devs001.dfs.core.windows.net/"
