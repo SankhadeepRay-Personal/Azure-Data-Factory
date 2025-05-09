@@ -1,0 +1,18 @@
+{
+	"name": "DFDelete",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "devs001connection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "test",
+				"fileSystem": "source"
+			}
+		}
+	}
+}
