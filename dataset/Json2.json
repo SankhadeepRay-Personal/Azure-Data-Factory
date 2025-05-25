@@ -1,0 +1,53 @@
+{
+	"name": "Json2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "devs001connection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Fact_Sales_2.json",
+				"fileSystem": "destination"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"transaction_id": {
+					"type": "string"
+				},
+				"transactional_date": {
+					"type": "string"
+				},
+				"product_id": {
+					"type": "string"
+				},
+				"customer_id": {
+					"type": "string"
+				},
+				"payment": {
+					"type": "string"
+				},
+				"credit_card": {
+					"type": "string"
+				},
+				"loyalty_card": {
+					"type": "string"
+				},
+				"cost": {
+					"type": "string"
+				},
+				"quantity": {
+					"type": "string"
+				},
+				"price": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
